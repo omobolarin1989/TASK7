@@ -896,10 +896,10 @@ background-position: 80% 80%;
     .head{
         width: 100%;
         background-size: cover;
-        background-position: 90% 0%;
+        background-position: 90% 10%;
         background-repeat: no-repeat;
         background-image: url('../Images/hero-bg.jpg'); 
-        padding:200px 10px ;        
+/*         padding:200px 10px ;         */
         height: fit-content;
         
     }
@@ -934,6 +934,32 @@ background-position: 80% 80%;
 
     .head-t{
         padding: 0;
+
+    }
+    
+    .right .right-pt1 .right-p11{
+        width: 250px;
+        background-size: cover;
+        background-position: 70% 10%;
+        padding: 50px;
+        
+    }
+
+    .right .right-pt2 .right-p2{
+        width: 250px;
+        background-size: 100% 100%;
+        background-position: 50%;
+    }
+
+    .right .right-pt2 .right-t2{
+        margin: 0;
+        
+    }
+
+    .qual .q-px{
+        width: 100%;
+        background-size: 200px 500px;
+        background-position: 80% 90%;
 
     }
 
