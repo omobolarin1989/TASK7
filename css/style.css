@@ -993,8 +993,13 @@ background-position: 80% 80%;
 
 
     .head-t{
-        top: 80px;
+        top: 20px;
     }
-
+    .line{
+    width: 250px;
+    overflow: hidden;
+    position: relative;
+    left: 40px;
+    }
     
 }
