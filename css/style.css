@@ -901,6 +901,8 @@ background-position: 80% 80%;
         background-image: url('../Images/hero-bg.jpg'); 
 /*         padding:200px 10px ;         */
         height: fit-content;
+        padding: 20px;
+    
         
     }
 
@@ -909,8 +911,9 @@ background-position: 80% 80%;
         /* margin: 0 310px 0 0; */
         line-height: 1.5rem;
         position: relative;
-        right: 60px;
-        padding: 200px;
+        right: 10px;
+        /* padding: 200px; */
+        bottom: 300px;
     }
 
     .head .head-t .head-t1 .head-t11{
@@ -940,8 +943,12 @@ background-position: 80% 80%;
     .right .right-pt1 .right-p11{
         width: 250px;
         background-size: cover;
-        background-position: 70% 10%;
+        /* background-position: 70% 10%; */
+        /* padding: 50px; */
+        height: 100vh;
+        background-size: 500px 500px;
         padding: 50px;
+        background-image: url('../Images/billionphotos1882993.jpg');
         
     }
 
@@ -956,11 +963,37 @@ background-position: 80% 80%;
         
     }
 
+    .right .right-pt1 .right-t1{
+        width: 80%;
+    }
+
     .qual .q-px{
         width: 100%;
         background-size: 200px 500px;
         background-position: 80% 90%;
+        
 
+    }
+
+    .qual{
+        border: 0;
+    }
+
+    .qual .q-px{
+        background-size: contain;
+    }
+
+    .qual .q-tx .q-tx2{
+        width: 100%;
+    }
+    .right .right-pt1{
+        width: 100%;
+       
+    }
+
+
+    .head-t{
+        top: 80px;
     }
 
     
