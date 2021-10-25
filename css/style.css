@@ -694,8 +694,10 @@ background-position: 80% 80%;
     }
 
     .head .head-t .head-t1 .head-t11{
-        font-size: 1.8rem;
+        font-size: 2.4rem;
         letter-spacing: 0.1rem;
+        white-space: nowrap;
+
     }
 
     .head{
@@ -710,15 +712,16 @@ background-position: 80% 80%;
 
 
     .head .head-t .head-t2 .head-t22{
-        font-size: 3rem;
+        font-size: 3.4rem;
         
     }
 
     .head-t{
         text-align: center;
-        line-height: 2.3rem;
+        line-height: 2.7rem;
         position: relative;
         top: 130px;
+        padding: 90px 20px;
         }
 
         .head .head-t .head-t1 .head-t11{
@@ -728,7 +731,8 @@ background-position: 80% 80%;
 
         .head .head-t .head-t1{
             
-            width: 100%;        }
+            width: 100%;       
+         }
 
     .head-p1, .head-p2, .head-p3{
         display: none;
@@ -737,6 +741,7 @@ background-position: 80% 80%;
     .head-p{
         padding: 0;
     }
+
 
     .line{
         width: 300px;
@@ -754,6 +759,7 @@ background-position: 80% 80%;
     
     .services .spec .spec1{
         width: fit-content;
+        font-size: 1.2rem;
     }
 
     .services .our-service {
@@ -762,8 +768,8 @@ background-position: 80% 80%;
 
     .services .help .help-1{
          padding: 0 90px;
-        font-size: 2rem;
-        /* width: 300px; */
+        font-size: 2.5rem;
+        font-weight: 750;
         
     }
 
@@ -776,8 +782,33 @@ background-position: 80% 80%;
         font-family: 'Open Sans',sans-serif;
         font-weight: 100;
     }
+
+    .right .right-pt1 .right-p11{
+        background-image: url('../Images/billionphotos1882993.jpg');
+        background-size: contain;
+    }
     .qual .q-tx .q-tx1{
         font-size: 1.5rem;
+    }
+
+    .right .right-pt1 .right-t1{
+        margin: 30px 20px;
+        /* width: 100%; */
+        /* padding:  0; */
+        /* font-size: 1.05rem; */
+        /* text-align: left; */
+    }
+
+    .right .right-pt1 .right-t1 .right-t11{
+        width: 120%;
+        margin: 50px 0 0 0;
+        font-size: 1rem;
+    }
+
+    .right .right-pt2 .right-p2{
+        background-image: url('../Images/billionphotos1883011.jpg');
+        margin: 30px;
+       background-position: 80% 90%;
     }
 
     .qual .q-px{
@@ -791,16 +822,50 @@ background-position: 80% 80%;
     .qual{
         display: flex;
         flex-direction: column;
+        border: 30px !important;
         
     }
 
     .q-line{
+        /* width: 800px; */
+    }
+
+    .qual .q-tx{
+        margin: 0;
         width: 100%;
+        padding: 10px;
+    }
+
+    .qual .q-tx .q-tx1{
+        font-size: 2.6rem;
     }
 
     .qual .q-tx .q-tx2{
-        width: 300px;
+        width: fit-content;
+        font-size: 1.3rem;
 
+    }
+
+    .abt-txt{
+        margin: 50px 0;
+    }
+
+    .abt-12{
+        font-size: 3.3rem;
+    }
+
+    .abt-13{
+        font-size: 3.1rem;
+    }
+
+    .abt-11{
+        font-size: 1.25rem;
+        white-space: nowrap;
+    }
+
+    .per{
+        border: 0;
+        /* margin: 20px; */
     }
 
     .per-pic{
@@ -837,6 +902,14 @@ background-position: 80% 80%;
         flex-direction: column;
     }
 
+    .todo-txt1{
+        font-size: 1.8rem;
+    }
+
+    .todo-miss{
+        font-size: 1.2rem;
+    }
+
     .todo-but{
         display: flex;
         flex-direction: column;
@@ -868,9 +941,13 @@ background-position: 80% 80%;
 
     }
 
-    .qual .q-tx .q-tx2{
-        /* width: fit-content; */
+    .services .help .help-1{
+    padding: 0 10px;
+    font-size: 2.3rem;
+    font-weight: 750;
+    width: 100%;
     }
+    
 
     .qual{
        
@@ -879,7 +956,7 @@ background-position: 80% 80%;
     }
 
     .qual .q-tx .q-tx2{
-        width: 180%;
+        width: 100%;
         padding: 2px;
 
     }
@@ -943,10 +1020,10 @@ background-position: 80% 80%;
     .right .right-pt1 .right-p11{
         width: 250px;
         background-size: cover;
-        /* background-position: 70% 10%; */
+        background-position: 40% 10%;
         /* padding: 50px; */
-        height: 100vh;
-        background-size: 500px 500px;
+        /* height: 100vh; */
+        /* background-size: contain; */
         padding: 50px;
         background-image: url('../Images/billionphotos1882993.jpg');
         
@@ -991,6 +1068,10 @@ background-position: 80% 80%;
        
     }
 
+    .q-but{
+        padding: 40px 0;
+    }
+
 
     .head-t{
         top: 20px;
@@ -1000,6 +1081,14 @@ background-position: 80% 80%;
     overflow: hidden;
     position: relative;
     left: 40px;
+    }
+
+    .todo-miss{
+        font-size: 1.1rem;
+    }
+
+    .todo-txt1{
+        font-size: 2rem;
     }
     
 }
